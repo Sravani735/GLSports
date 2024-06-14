@@ -1,0 +1,90 @@
+body{
+	font-family: 'PT Sans',serif;
+	background-color: #252529;
+	margin:0;
+	color:white;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+#showcase{
+	margin:0;
+	padding:0;
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYpeAZz167g2U0rirNGCN2tQO4L0e_z0ntmJnQGzZe7ORT8ljClBb0YUg6TTlkuzR94FM&usqp=CAU');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover;
+	width:100%;
+	height:100vh; 
+	position: relative;
+	overflow-y:hidden;
+}
+#showcase.container{
+	margin-top: 25px;
+}
+#showcase h1{
+	font-size: 4rem;/* root size font elements*/
+
+}
+
+#showcase h2{
+	font-size:2rem;
+}
+nav {
+	height: 40px;
+	width: 100%;
+	background-color: #333;
+	color:black;
+	position:fixed;
+}
+nav ul{
+	margin:0;
+	padding:0;
+}
+nav li{
+	display: inline;
+	float:left;
+
+}
+nav a{
+	display:inline-block;
+	width:100px;
+	text-align:center;
+	text-decoration: underline;
+	padding: 10px 0;
+}
+nav li:hover{
+	background: #444;
+}
+.container{
+	max-width: 1180px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 0 3rem;
+}
+.lead{
+	font-size: 1.3rem;
+}
+footer .footer-cols{ 
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 2rem;
+	text-align: left;
+	font-size: 14px;
+}
+footer .footer-cols ul{
+	list-style:none;
+}
+footer .footer-cols ul li:first-child{
+	font-size: :1.2 rem;
+	padding-bottom: 0.5rem;
+	border-bottom: #444 solid 2px;
+	margin-bottom: 1rem;
+}
+footer .footer-bottom{
+	background-color: #333;
+	padding: 1rem;
+	text-align: center;
+}
